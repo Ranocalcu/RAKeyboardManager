@@ -7,8 +7,11 @@
 //
 
 #import "TwoViewController.h"
+#import "RAKeyboardManager.h"
 
 @interface TwoViewController ()
+
+@property (nonatomic, strong) UITextField *textField;
 
 @end
 
@@ -16,7 +19,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    
+    self.textField = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, 200, 20)];
+    self.textField.center = CGPointMake(CGRectGetMidX(self.view.bounds), self.view.bounds.size.height - 200);
+    self.textField.borderStyle = UITextBorderStyleRoundedRect;
+    self.textField.text = @"TextField";
+    [self.view addSubview:self.textField];
+    
+    [[RAKeyboardManager shareManager] addObserveredView:self.textField];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2233C7951C45ECF0001180D6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2233C7941C45ECF0001180D6 /* TableViewController.m */; };
+		2233C7981C45F121001180D6 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2233C7971C45F121001180D6 /* TwoViewController.m */; };
+		22549BBA1C44A99A00C70486 /* RAKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22549BB91C44A99A00C70486 /* RAKeyboardManager.m */; };
+		22549BC31C450F0E00C70486 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22549BC21C450F0E00C70486 /* MyTableViewCell.m */; };
 		22D97BC91C06FFC000D59D70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D97BC81C06FFC000D59D70 /* main.m */; };
 		22D97BCC1C06FFC000D59D70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D97BCB1C06FFC000D59D70 /* AppDelegate.m */; };
 		22D97BCF1C06FFC000D59D70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D97BCE1C06FFC000D59D70 /* ViewController.m */; };
 		22D97BD21C06FFC000D59D70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D97BD01C06FFC000D59D70 /* Main.storyboard */; };
 		22D97BD41C06FFC000D59D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D97BD31C06FFC000D59D70 /* Assets.xcassets */; };
 		22D97BD71C06FFC000D59D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D97BD51C06FFC000D59D70 /* LaunchScreen.storyboard */; };
+		22D97BE61C070E7300D59D70 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D97BE51C070E7300D59D70 /* OneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2233C7931C45ECF0001180D6 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2233C7941C45ECF0001180D6 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		2233C7961C45F121001180D6 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		2233C7971C45F121001180D6 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		22549BB81C44A99A00C70486 /* RAKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAKeyboardManager.h; sourceTree = "<group>"; };
+		22549BB91C44A99A00C70486 /* RAKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAKeyboardManager.m; sourceTree = "<group>"; };
+		22549BC11C450F0E00C70486 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		22549BC21C450F0E00C70486 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 		22D97BC41C06FFC000D59D70 /* RAKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D97BC81C06FFC000D59D70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22D97BCA1C06FFC000D59D70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +39,8 @@
 		22D97BD31C06FFC000D59D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22D97BD61C06FFC000D59D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22D97BD81C06FFC000D59D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D97BE41C070E7300D59D70 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		22D97BE51C070E7300D59D70 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +54,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2233C7911C45EC72001180D6 /* KeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				22549BB81C44A99A00C70486 /* RAKeyboardManager.h */,
+				22549BB91C44A99A00C70486 /* RAKeyboardManager.m */,
+			);
+			name = KeyboardManager;
+			sourceTree = "<group>";
+		};
+		2233C7921C45EC8A001180D6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				22D97BCD1C06FFC000D59D70 /* ViewController.h */,
+				22D97BCE1C06FFC000D59D70 /* ViewController.m */,
+				2233C7931C45ECF0001180D6 /* TableViewController.h */,
+				2233C7941C45ECF0001180D6 /* TableViewController.m */,
+				22549BC11C450F0E00C70486 /* MyTableViewCell.h */,
+				22549BC21C450F0E00C70486 /* MyTableViewCell.m */,
+				22D97BE41C070E7300D59D70 /* OneViewController.h */,
+				22D97BE51C070E7300D59D70 /* OneViewController.m */,
+				2233C7961C45F121001180D6 /* TwoViewController.h */,
+				2233C7971C45F121001180D6 /* TwoViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		22D97BBB1C06FFC000D59D70 = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +101,8 @@
 			children = (
 				22D97BCA1C06FFC000D59D70 /* AppDelegate.h */,
 				22D97BCB1C06FFC000D59D70 /* AppDelegate.m */,
-				22D97BCD1C06FFC000D59D70 /* ViewController.h */,
-				22D97BCE1C06FFC000D59D70 /* ViewController.m */,
+				2233C7921C45EC8A001180D6 /* ViewController */,
+				2233C7911C45EC72001180D6 /* KeyboardManager */,
 				22D97BD01C06FFC000D59D70 /* Main.storyboard */,
 				22D97BD31C06FFC000D59D70 /* Assets.xcassets */,
 				22D97BD51C06FFC000D59D70 /* LaunchScreen.storyboard */,
@@ -149,9 +190,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D97BE61C070E7300D59D70 /* OneViewController.m in Sources */,
 				22D97BCF1C06FFC000D59D70 /* ViewController.m in Sources */,
+				22549BC31C450F0E00C70486 /* MyTableViewCell.m in Sources */,
 				22D97BCC1C06FFC000D59D70 /* AppDelegate.m in Sources */,
 				22D97BC91C06FFC000D59D70 /* main.m in Sources */,
+				2233C7951C45ECF0001180D6 /* TableViewController.m in Sources */,
+				22549BBA1C44A99A00C70486 /* RAKeyboardManager.m in Sources */,
+				2233C7981C45F121001180D6 /* TwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +311,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.58.RAKeyBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -276,6 +323,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.58.RAKeyBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -298,6 +346,7 @@
 				22D97BDD1C06FFC000D59D70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

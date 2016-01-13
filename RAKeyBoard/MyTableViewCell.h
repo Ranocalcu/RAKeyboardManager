@@ -10,4 +10,8 @@
 
 @interface MyTableViewCell : UITableViewCell
 
+@property (nonatomic, strong) UITextField *tf;
+
+- (void)configWithIndexPath:(NSIndexPath *)indexPath;
+
 @end
